@@ -1,0 +1,1 @@
+web: gunicorn SmarTour.wsgi --log-file -
