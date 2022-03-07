@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145622b1-a6d3-4fc5-8884-461919f641ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmarTour/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmarTour/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646662847615</updated>
       <workItem from="1646662876680" duration="370000" />
-      <workItem from="1646663342980" duration="3272000" />
+      <workItem from="1646663342980" duration="4093000" />
     </task>
     <servers />
   </component>
