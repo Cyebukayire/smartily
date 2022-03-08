@@ -414,12 +414,13 @@ nav .open .nav-right{
 }
 
 .btn-explore{
+    max-width: 15rem;
+    text-align: center;
   margin-top: 3rem;
-  padding:1.5rem 6rem;
-  background-color: #fb8f1d;
-  /* color: #FFFFFF; */
-  color: #015144;
+  padding: 1.5rem 2rem;
+  background-color: #EFEFEF;
   cursor: pointer;
+    color: #EF6E09;
 }
 .btn-explore:hover{
   background-color:#EF6E09;
