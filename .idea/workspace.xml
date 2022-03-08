@@ -3,30 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="145622b1-a6d3-4fc5-8884-461919f641ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/explore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra2(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra3(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/extra4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/guides.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider1(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider2(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/slider7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/images/travel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +65,7 @@
       <workItem from="1646662876680" duration="370000" />
       <workItem from="1646663342980" duration="6809000" />
       <workItem from="1646715705606" duration="7186000" />
-      <workItem from="1646725863022" duration="9863000" />
+      <workItem from="1646725863022" duration="11256000" />
     </task>
     <servers />
   </component>
