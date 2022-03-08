@@ -441,9 +441,9 @@ nav .open .nav-right{
 .section-text{
   padding: 0 3rem;
 }
-.section-2{
-  margin-left: 20rem;
-}
+/*.section-2{*/
+/*  margin-left: 20rem;*/
+/*}*/
 .section-text .btn{
     padding: 1.5rem 3rem;
     max-width: 20rem;
