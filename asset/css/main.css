@@ -1,3 +1,4 @@
+
 .text-orange{
   color: #FF5333;
 }
@@ -17,7 +18,7 @@ Header section
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: relatoive;
 }
 #header:before {
   content: "";
@@ -167,6 +168,19 @@ About section
 /****************** ********* ********* ********* ********* *********  
 Form section
 *************************** ********* ********* ********* ********* **/
+.custom-container{
+  background-position: left; 
+  background-repeat: no-repeat; 
+  background-size: contain;
+}
+ 
+.survey-bg{
+  background-image: url('../images/undraw_amusement_park_17oe.svg');
+}
+
+.result-bg{
+  background-image: url('../images/undraw_stranded_traveler_pdbw\ \(2\).svg');
+}
 
 .title {
   color: #2E2E2E;
@@ -179,14 +193,23 @@ Form section
 
 .info-card{
   padding:1rem; 
+  padding-bottom: 4rem;
   margin: 3px;
   margin-top: 5rem; 
+  margin-bottom: 5rem; 
   border-bottom: 2px solid rgb(245, 95, 69);
   border-right: 2px solid tomato;
-  background-color: wheat;
-  color: #2E2E2E;
-
+  background-color: rgba(128, 104, 100, 0.801);
 }
+
+.info-card label{
+ color: #E9E9E9; 
+}
+
+.info-card h3{
+  color: #E9E9E9; 
+ }
+ 
 
 .shadow-lg{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -315,4 +338,3 @@ a:active {
   background: url("../images/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
-
