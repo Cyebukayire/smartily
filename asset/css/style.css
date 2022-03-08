@@ -381,12 +381,14 @@ nav .open .nav-right{
 .hero-title{
   font-size: 6.4rem;
   font-family: 'Playfair Display', serif;
-  color: rgba(0, 84, 69, 0.9);;
+  /*color: rgba(0, 84, 69, 0.9);*/
+    color: #2F2E41;
 }
 .hero-subtitle{
   margin-top: 3rem;
   /* color: #202336-clay; */
-  color: rgba(0, 84, 69, 0.7);
+  /*color: rgba(0, 84, 69, 0.7);*/
+    color: #2F2E41;
   font-size: 2.2rem;
   font-weight: 600;
   font-family:'Inter', "Myriad pro Semibold",sans-serif;
@@ -420,11 +422,13 @@ nav .open .nav-right{
   padding: 1.5rem 2rem;
   background-color: #EFEFEF;
   cursor: pointer;
-    color: #EF6E09;
+    /*color: #EF6E09;*/
+    color: #00A1DE;
 }
 .btn-explore:hover{
-  background-color:#EF6E09;
-  color: white;
+  background-color:white;
+    border: 2px solid #00A1DE;
+  /*color: white;*/
 }
 .hero-img{
   flex: 1 1 50%;
@@ -712,7 +716,7 @@ nav .open .nav-right{
   font-size: 1.9rem;
   font-family: "Mulish", sans-serif;
   font-weight: bold;
-  color: #000000;
+  color: #2F2E41;
 }
 .nav-footer-item{
   padding: .75rem 1rem .75rem 0;
@@ -728,7 +732,7 @@ nav .open .nav-right{
   display: block;
 }
 .nav-footer-link:hover{
-    color: #fb8f1d;
+    color: #00A1DE;
   }
 .social-media{
   flex-basis: 100%;
