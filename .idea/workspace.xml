@@ -3,35 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="145622b1-a6d3-4fc5-8884-461919f641ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra2(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra3(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/extra4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/overlay-pattern(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/overlay-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/overlay-pattern2(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/overlay-pattern2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider1(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider2(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slider7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/travel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/undraw_amusement_park_17oe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/undraw_beach_rvmg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/undraw_stranded_traveler_pdbw (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/undraw_stranded_traveler_pdbw (2).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/undraw_wallet_aym5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/survey1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/survey1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +65,8 @@
       <updated>1646662847615</updated>
       <workItem from="1646662876680" duration="370000" />
       <workItem from="1646663342980" duration="6809000" />
-      <workItem from="1646715705606" duration="996000" />
+      <workItem from="1646715705606" duration="7186000" />
+      <workItem from="1646725863022" duration="2025000" />
     </task>
     <servers />
   </component>
