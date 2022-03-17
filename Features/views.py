@@ -20,7 +20,7 @@ def result(req):
     data_ls.append(req.GET['Total_Days'])
 
     #Get User's Email
-    email = req.GET['Email']
+    # email = req.GET['Email']
     
 
     Age_group = {'18-25': 0, '26-35': 1, '36-45': 2, 'less than 18': 3}

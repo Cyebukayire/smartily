@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visit Rwanda</title>
+    <link rel="icon" type="image/png" href="{% static 'images/rw.svg' %}">
     <link rel="stylesheet" href="{% static 'css/survey.css' %}">
 </head>
 <body>
@@ -22,7 +23,7 @@
         </a>
         <div class="form">
         <div class="title">Find Out</div>
-        <form action="{% url 'result' %}" method="post">
+        <form action="{% url 'result' %}" class="row">
 
           {% csrf_token %}
           <div class="user-details">
@@ -119,10 +120,10 @@
                 <input class="form-control" required name="Total_Days" placeholder="Days to stay"/>
               </div>
           </div>
+                 <input type="submit" name="" value="submit" class="btn btn-submit">
         </form>
     </div>
       </div>
-      <a href="#" class="btn btn-submit">Submit</a>
-      <input type="submit" name="" value="submit" class="btn form-btn">
+<!--      <a href="#" class="btn btn-submit">Submit</a>-->
 </body>
 </html>
