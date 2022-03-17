@@ -1,169 +1,128 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html class="no-js">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Rwanda</title>
+    <link rel="stylesheet" href="{% static 'css/survey.css' %}">
+</head>
+<body>
 
-        <title>Visit Rwanda</title>
-        <link rel="icon" type="image/png" href="{% static 'images/rw.svg' %}">
-		<!-- CSS
-        ================================================ -->
-
-        <!-- bootstrap.min css -->
-		<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-        <!-- Font-awesome.min css -->
-		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
-
-		<link rel="stylesheet" href="{% static 'css/main.css' %}">
-	</head>
-	<body>
-
-    <div class="container-fluid custom-container survey-bg">
-        <a  class="btn btn-default btn-sm header-btn-2" href="{% url 'home' %}">
-            Back
+    <div class="container">
+        <!-- <h1>How much are you likely to spend?</h1> -->
+        <a href="{% url 'home' %}" class="back-button">
+          <div class="arrow-wrap">
+            <span class="arrow-part-1"></span>
+            <span class="arrow-part-2"></span>
+            <span class="arrow-part-3"></span>
+          </div>
         </a>
-        <!--
-        Form section  start
-        ============================= -->
-        <section id="form-section">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12 mx-auto">
-                        <div class="card info-card mx-auto">
-                            <div class="card-header">
-                                This will take a few seconds.
-                            </div>
-                            <div class="card-body">
-                                <form action="{% url 'result' %}" class="row">
+        <div class="form">
+        <div class="title">Find Out</div>
+        <form action="{% url 'result' %}" method="post">
 
-                                {% csrf_token %}
-                                    <div class="form-group col-6" >
-                                        <label>Gender: </label>
-                                        <select name="Gender" required type="text" class="form-control">
-                                            <option value="" disabled selected hidden>-- select --</option>
-                                            <option value="0">Female</option>
-                                            <option value="1">Male</option>
-                                        </select>
-                                    </div>
+          {% csrf_token %}
+          <div class="user-details">
+            <div class="input-box">
+              <label class="details">Gender: </label>
+              <select name="Gender" required type="text" class="form-control">
+                <option value="" disabled selected hidden>Gender</option>
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+            </div>
 
-                                    <div class="form-group col-6">
-                                        <label>Age_group: </label>
-                                        <select name="Age_group" required type="text" class="form-control">
-                                            <option value="" disabled selected hidden>-- select your age --</option>
-                                            <option value="0">18-25</option>
-                                            <option value="1">26-35</option>
-                                            <option value="2">36-45</option>
-                                            <option value="3">less than 18</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col-6">
-                                        <label>City: </label>
-                                        <select name="City" required type="text" class="form-control">
-                                            <option value="" disabled selected hidden>-- select city to visit--</option>
-                                            <option value="0">Kigali</option>
-                                            <option value="1">Huye</option>
-                                            <option value="2">Musanze</option>
-                                            <option value="3">Nyanza</option>
-                                            <option value="4">Kicukiro</option>
-                                            <option value="5">Nyarugenge</option>
-                                            <option value="6">Gasabo</option>
-                                            <option value="7">Muhanga</option>
-                                            <option value="8">Burera</option>
-                                            <option value="9">Gicumbi</option>
-                                            <option value="10">Ruhango</option>
-                                            <option value="11">Nyagatare</option>
-                                            <option value="12">Rwamagana</option>
-                                            <option value="13">Kayonza</option>
-                                            <option value="14">Kirehe</option>
-                                            <option value="15">Nyabihu</option>
-                                            <option value="16">Ngororero</option>
-                                            <option value="17">Nyamagabe</option>
-                                            <option value="18">Kamonyi</option>
-                                            <option value="19">Gatsibo</option>
-                                            <option value="20">Rusizi</option>
-                                        </select>
-                                    </div>
+            <div class="input-box">
+                <label class="details">Age Group: </label>
+                <select name="Age_group" required type="text" class="form-control">
+                    <option value="" disabled selected hidden>Your age group</option>
+                    <option value="0">18-25</option>
+                    <option value="1">26-35</option>
+                    <option value="2">36-45</option>
+                    <option value="3">less than 18</option>
+                </select>
+              </div>
 
-                                    <div class="form-group col-6">
-                                        <label>Travel_With: </label>
-                                        <select name="Travel_With" required type="text" class="form-control">
-                                            <option value="" disabled selected hidden>-- select who you are traveling with--</option>
-                                            <option value="0">Alone</option>
-                                            <option value="1">Friends</option>
-                                            <option value="2">Relatives</option>
-                                            <option value="3">Spouse</option>
-                                        </select>                                    
-                                    </div>
+              <div class="input-box">
+                <label class="details">City: </label>
+                <select name="City" required type="text" class="form-control">
+                    <option value="" disabled selected hidden>City to visit</option>
+                    <option value="0">Kigali</option>
+                    <option value="1">Huye</option>
+                    <option value="2">Musanze</option>
+                    <option value="3">Nyanza</option>
+                    <option value="4">Kicukiro</option>
+                    <option value="5">Nyarugenge</option>
+                    <option value="6">Gasabo</option>
+                    <option value="7">Muhanga</option>
+                    <option value="8">Burera</option>
+                    <option value="9">Gicumbi</option>
+                    <option value="10">Ruhango</option>
+                    <option value="11">Nyagatare</option>
+                    <option value="12">Rwamagana</option>
+                    <option value="13">Kayonza</option>
+                    <option value="14">Kirehe</option>
+                    <option value="15">Nyabihu</option>
+                    <option value="16">Ngororero</option>
+                    <option value="17">Nyamagabe</option>
+                    <option value="18">Kamonyi</option>
+                    <option value="19">Gatsibo</option>
+                    <option value="20">Rusizi</option>
+                </select>
+              </div>
 
-                                    <div class="form-group col-6">
-                                        <label>Total_female: </label>
-                                        <input class="form-control" required name="Total_female" placeholder="-- Input total female --"/>                             
-                                    </div>
+              <div class="input-box">
+                <label class="details">Travelmate : </label>
+                <select name="Travel_With" required type="text" class="form-control">
+                    <option value="" disabled selected hidden>Travelmate</option>
+                    <option value="0">Alone</option>
+                    <option value="1">Friends</option>
+                    <option value="2">Relatives</option>
+                    <option value="3">Spouse</option>
+                </select>
+              </div>
 
-                                    <div class="form-group col-6">
-                                        <label>Total_male: </label>
-                                        <input class="form-control" required name="Total_male" placeholder="-- Input total male --"/>
-                                    </div>
+              <!-- <div class="input-box">
+                <label class="details">Total female: </label>
+                <input class="form-control" required name="Total_female" placeholder="Input total female"/>
+              </div> -->
 
-                                    <div class="form-group col-6">
-                                        <label>Purpose_of_Visit:</label> 
-     
-                                        <select required name="Purpose_of_Visit" type="text" class="form-control">
-                                            <option value="" disabled selected hidden>-- Select purpose of visit--</option>
-                                            <option value="0">Business,Meeting and conferences</option>
-                                            <option value="1">Class Trip</option>
-                                            <option value="2">Engagement party</option>
-                                            <option value="3">Family event</option>
-                                            <option value="4">Honeymoon</option>
-                                            <option value="5">Leisure and Holidays</option>
-                                            <option value="6">Visiting friends and relatives</option>
+              <div class="input-box">
+                <label class="details">Total Female: </label>
+                <input class="form-control" required name="Total_female" placeholder="Total female"/>
+              </div>
 
-                                        </select>                                                    
-                                    </div>
+              <div class="input-box">
+                <label class="details">Total male: </label>
+                <input class="form-control" required name="Total_male" placeholder="Total male"/>
+              </div>
 
-                                    <div class="form-group col-6">
-                                        <label>Total_Days:</label>      
-                                        <input class="form-control" required name="Total_Days" placeholder="-- Input days of stay --"/>                          
-                                    </div>
+              <div class="input-box">
+                <label class="details">Purpose of visit: </label>
+                <select required name="Purpose_of_Visit" type="text" class="form-control">
+                    <option value="" disabled selected hidden>Purpose of visit</option>
+                    <option value="0">Business,Meeting and conferences</option>
+                    <option value="1">Class Trip</option>
+                    <option value="2">Engagement party</option>
+                    <option value="3">Family event</option>
+                    <option value="4">Honeymoon</option>
+                    <option value="5">Leisure and Holidays</option>
+                    <option value="6">Visiting friends and relatives</option>
+                </select>
+              </div>
 
-                                    <div class="form-group col-6">
-                                        <label>Email:</label>      
-                                        <input class="form-control" required name="Email" placeholder="-- Input Email --"/>                          
-                                    </div>
-
-                                    <!--Submit button-->
-                                    <input type="submit" name="" type="text" value="submit" class="btn form-btn">
-                                    </form>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #form-section close -->
-
-
+              <div class="input-box">
+                <label class="details">Total Days: </label>
+                <input class="form-control" required name="Total_Days" placeholder="Days to stay"/>
+              </div>
+          </div>
+        </form>
     </div>
-
-
-
-    <!--footer-bottom  start
-    ============================= -->
-<!--    <footer id="footer-bottom">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-12 col-sm-12">-->
-<!--                    <div class="block"> made@RCA2021 </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </footer>-->
-	</body>
+      </div>
+      <a href="#" class="btn btn-submit">Submit</a>
+      <input type="submit" name="" value="submit" class="btn form-btn">
+</body>
 </html>
-
