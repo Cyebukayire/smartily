@@ -4,7 +4,7 @@ GETTING STARTED
 
 1 - Create your own python development environment OR activate an existing environment (venv)
 
-`  venv/Scripts/activate
+`  ./venv/Scripts/activate
 ` 
 
 2 - Install requirements
